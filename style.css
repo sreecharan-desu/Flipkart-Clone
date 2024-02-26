@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    top:0px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight:300;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.nav{
+    background-color:white;
+    width:auto;
+    height:auto;
+    position:sticky;
+}
+
+#explore{
+    font-style:italic;
+    font-size:15px;
+    color:rgba(58, 58, 58,0.5);
+    font-weight:900;
+    margin-left:65px;
+    margin-top:-15px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.search-bar{
+    text-align: center;
+    width:auto;
+}
+
+.search-bar input{
+    background-color:rgba(176, 245, 241, 0.15);
+    width:600px;
+    margin-left:20px;
+    border-style:none;
+    height:35px;
+    border-radius:2px;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:-10px;
+    letter-spacing:1px;
+    border-color:transparent;
+}
+
+.become_a_seller{
+    margin-top:-15px;
+    font-size:20px;
+    margin-left:30px;
+}
+
+.become_a_seller a{
+    margin-top:-15px;
+    font-size:20px;
+    color:black;
+    margin-left:-26px;
+    font-weight:400;
+    flex-wrap: wrap;
+}
+
+.sign-in{
+    margin-top:-15px;
+    font-size:20px;
+    margin-left:30px;
+    border-radius:10px;
+}
+
+.sign-in a{
+    margin-top:-15px;
+    font-size:20px;
+    color:black;
+    margin-left:-26px;
+    font-weight:400;
+    flex-wrap: wrap;
+}
+
+.cart{
+    margin-top:-15px;
+    font-size:20px;
+    margin-left:30px;
+    border-radius:10px;
+}
+
+.cart a{
+    margin-top:-15px;
+    font-size:20px;
+    color:black;
+    margin-left:-26px;
+    font-weight:400;
+    flex-wrap: wrap;
+}
+
+.nav2{
+    width:auto;
+    height:auto;
+    text-align: center;
+    background-color:white;
+}
+
+#nav2img{
+    padding:25px;
+    font-weight:bolder;
+}
+
+#nav2img:hover{
+    padding:25px;
+    font-weight:bolder;
+    width:70px;
+    height:70px;
+}
+
+.top-offers{
+    width: auto;
+    height:auto;
+    background-color:white;
+    text-align:center;
+}
+
+.top-offers:hover{
+    width: auto;
+    height:auto;
+    background-color:white;
+    text-align:center;
+}
+
+.top-offers h1{
+    text-align:left;
+    margin-left:50px;
+    margin-top:20px;
+    font-weight:500;
+}
+
+.top-offers img:hover{
+    width:210px;
+    height:260px;
+}
+
+.small-items{
+    background-color:white;
+    border-color:rgba(0, 0, 255,0.3);
+    border-style:solid;
+    margin-left:10px;
+}
+
+.samll-items img:hover{
+    width:251px;
+}
+
+.items{
+    background-color:white;
+    border-color:rgba(0, 0, 255,0.3);
+    border-style:solid;
+    margin-left:10px;
+}
+
+.items img:hover{
+    width:400px;
+}
+
+.footer{
+    width:auto;
+    height:100px;
+}
